@@ -1,5 +1,16 @@
 # Jason Feng's dotfiles
 
+### Screenshots
+
+##### Tmux and ZSH Shell
+
+![img](screenshots/tmux.png)
+
+##### Vim
+
+![img](screenshots/vim.png)
+
+
 ### Installation
 
 `cd dotfiles && source bootstrap.sh`
