@@ -22,5 +22,9 @@
 * [Pathogen](https://github.com/tpope/vim-pathogen)
 * [Tmux](https://tmux.github.io/)
 
+### Themes
+
+* iTerm and ZSH Theme: [Honukai](https://github.com/oskarkrawczyk/honukai-iterm-zsh)
+
 Forked from [Mathias Bynes](https://github.com/mathiasbynens/dotfiles)
 
