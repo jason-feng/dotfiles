@@ -1,5 +1,9 @@
 # Jason Feng's dotfiles
 
+### Instructions
+
+https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/
+
 ### Screenshots
 
 ##### Tmux and ZSH Shell
