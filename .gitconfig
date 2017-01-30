@@ -5,11 +5,17 @@
 [alias]
 	co = checkout
 
+    branch-name = "!git rev-parse --abbrev-ref HEAD"
+
+    publish = "!git push origin $(git branch-name)"
+
 	rb = rebase
 
 	cm = commit -m
 
-	st = status
+    st = status
+
+    squash = rebase --interactive --autosquash
 
 	pullorigin="pull --rebase origin"   # tweak naming to whatever, but a nice shortcut to ensure --rebase
 
