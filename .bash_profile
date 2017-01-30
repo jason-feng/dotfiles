@@ -1,5 +1,7 @@
 alias dotfiles='/usr/bin/git --git-dir=/Users/jasonfeng/.dotfiles/ --work-tree=/Users/jasonfeng'
 
+alias ls='ls -la'
+
 eval "$(rbenv init -)"
 
 # Bash Auto Completion
