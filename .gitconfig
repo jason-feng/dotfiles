@@ -3,23 +3,24 @@
 	email = jason21feng@gmail.com
 
 [alias]
-	co = checkout
+    co = checkout
 
     branch-name = "!git rev-parse --abbrev-ref HEAD"
 
-    publish = "!git push origin $(git branch-name)"
+    pub = "!git push origin $(git branch-name)"
 
-	rb = rebase
+    up = "!git pull --rebase origin $(git branch-name)"
 
-	cm = commit -m
+    rb = rebase
+
+    cm = commit -m
 
     st = status
 
     squash = rebase --interactive --autosquash
 
-	pullorigin="pull --rebase origin"   # tweak naming to whatever, but a nice shortcut to ensure --rebase
+    pull="pull --rebase"   # tweak naming to whatever, but a nice shortcut to ensure --rebase
 
-	# View abbreviated SHA, description, and history graph of the latest 20 commits
 	l = log --pretty=oneline -n 20 --graph --abbrev-commit
 
 	# View the current working tree status using the short format
