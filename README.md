@@ -15,9 +15,12 @@ https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare
 ![img](screenshots/vim.png)
 
 
-### Installation
+### Atom Config
 
-`cd dotfiles && source bootstrap.sh`
+Themes
+
+- One Dark
+- Spacegray Dark syntax
 
 ### Themes
 
